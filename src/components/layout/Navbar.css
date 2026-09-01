@@ -144,3 +144,22 @@
     margin-top: 1rem;
   }
 }
+
+@media (max-width: 576px) {
+  .navbar-logo-img {
+    height: 36px;
+  }
+  
+  .logo-brand {
+    font-size: 1.15rem;
+  }
+  
+  .logo-sub {
+    font-size: 0.65rem;
+    letter-spacing: 0;
+  }
+  
+  .logo {
+    gap: 0.5rem;
+  }
+}
