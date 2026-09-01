@@ -228,34 +228,35 @@
   }
 
   .about-photo-wrapper {
-    margin-bottom: 9rem; /* Plus d'espace pour les deux badges en dessous */
+    margin-bottom: 2rem;
   }
 
   .about-badge-experience,
   .about-partner-card {
     display: flex;
-    transform: scale(0.95);
+    transform: scale(0.8);
     z-index: 10;
-    width: 90%;
-    max-width: 300px;
-    margin: 0 auto;
-    justify-content: center;
+    width: auto;
+    max-width: none;
+    margin: 0;
   }
   
   .about-badge-experience {
     bottom: auto;
-    top: 100%;
-    margin-top: 15px;
-    right: 0;
-    left: 0;
+    top: 10px;
+    right: -5px;
+    left: auto;
+    margin-top: 0;
+    transform-origin: right center;
   }
   
   .about-partner-card {
-    bottom: auto;
-    top: 100%;
-    margin-top: 90px;
-    left: 0;
-    right: 0;
+    top: auto;
+    bottom: 10px;
+    right: auto;
+    left: -5px;
+    margin-top: 0;
+    transform-origin: left center;
   }
 
   .about-photo {
