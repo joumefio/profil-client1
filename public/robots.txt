@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /private/
 
-Sitemap: https://dynacedistributor.com/sitemap.xml
+Sitemap: https://dynacereference.com/sitemap.xml
