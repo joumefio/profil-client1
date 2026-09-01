@@ -329,19 +329,30 @@
     display: none;
   }
 
+  .hero-photo-frame {
+    margin-bottom: 6.5rem;
+  }
+
   .floating-badge {
     display: flex;
-    transform: scale(0.85);
+    transform: scale(0.95);
+    width: 90%;
+    max-width: 300px;
+    margin: 0 auto;
+    justify-content: center;
   }
   
   .badge-top {
-    top: -5px;
-    left: -15px;
+    top: auto;
+    bottom: -45px;
+    left: 0;
+    right: 0;
   }
   
   .badge-bottom {
-    bottom: -15px;
-    right: -15px;
+    bottom: -110px;
+    left: 0;
+    right: 0;
   }
 
   .hero-photo {
