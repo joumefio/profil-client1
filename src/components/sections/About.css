@@ -229,7 +229,19 @@
 
   .about-badge-experience,
   .about-partner-card {
-    display: none;
+    display: flex;
+    transform: scale(0.85);
+    z-index: 10;
+  }
+  
+  .about-badge-experience {
+    top: -5px;
+    right: -10px;
+  }
+  
+  .about-partner-card {
+    bottom: -15px;
+    left: -10px;
   }
 
   .about-photo {

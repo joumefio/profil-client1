@@ -330,7 +330,18 @@
   }
 
   .floating-badge {
-    display: none; /* Simplifier sur très petits écrans */
+    display: flex;
+    transform: scale(0.85);
+  }
+  
+  .badge-top {
+    top: -5px;
+    left: -15px;
+  }
+  
+  .badge-bottom {
+    bottom: -15px;
+    right: -15px;
   }
 
   .hero-photo {
