@@ -228,7 +228,7 @@
   }
 
   .about-photo-wrapper {
-    margin-bottom: 6.5rem;
+    margin-bottom: 9rem; /* Plus d'espace pour les deux badges en dessous */
   }
 
   .about-badge-experience,
@@ -243,14 +243,17 @@
   }
   
   .about-badge-experience {
-    top: auto;
-    bottom: -45px;
+    bottom: auto;
+    top: 100%;
+    margin-top: 15px;
     right: 0;
     left: 0;
   }
   
   .about-partner-card {
-    bottom: -110px;
+    bottom: auto;
+    top: 100%;
+    margin-top: 90px;
     left: 0;
     right: 0;
   }

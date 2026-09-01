@@ -330,7 +330,7 @@
   }
 
   .hero-photo-frame {
-    margin-bottom: 6.5rem;
+    margin-bottom: 9rem; /* Plus d'espace pour les deux badges en dessous */
   }
 
   .floating-badge {
@@ -343,14 +343,17 @@
   }
   
   .badge-top {
-    top: auto;
-    bottom: -45px;
+    bottom: auto;
+    top: 100%;
+    margin-top: 15px;
     left: 0;
     right: 0;
   }
   
   .badge-bottom {
-    bottom: -110px;
+    bottom: auto;
+    top: 100%;
+    margin-top: 90px;
     left: 0;
     right: 0;
   }
