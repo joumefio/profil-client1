@@ -359,8 +359,9 @@
   }
 
   .hero-photo {
-    height: 320px;
+    height: 380px;
     max-width: 100%;
     border-width: 3px;
+    object-position: center 15%; /* Ajuster légèrement le cadrage vers le haut de l'image pour avoir le menton en entier */
   }
 }

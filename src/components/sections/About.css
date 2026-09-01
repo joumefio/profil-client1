@@ -259,6 +259,7 @@
   }
 
   .about-photo {
-    height: 360px;
+    height: 380px;
+    object-position: center 15%;
   }
 }
